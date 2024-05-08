@@ -4,7 +4,7 @@ import { FaInstagram, FaTwitter, FaSpotify, FaEnvelope } from "react-icons/fa";
 const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
-      <Box bg="black" color="gold" minHeight="100vh">
+      <Box bg="black" color="brand.pink" minHeight="100vh">
         <VStack spacing={10} p={10} textAlign="center">
           <Heading as="h1" size="2xl" fontWeight="bold">Drake</Heading>
           <Text fontSize="xl">Canadian Rapper, Singer, and Songwriter</Text>
@@ -16,7 +16,7 @@ const Index = () => {
           </VStack>
           <VStack spacing={4} align="start">
             <Heading as="h2" size="lg">Music</Heading>
-            <Link href="#" color="gold" isExternal>Listen on Spotify <FaSpotify /></Link>
+            <Link href="#" color="brand.pink" isExternal>Listen on Spotify <FaSpotify /></Link>
             <Text>Explore Drake's music including the latest albums and hit singles.</Text>
           </VStack>
           <VStack spacing={4} align="start">
@@ -25,10 +25,10 @@ const Index = () => {
           </VStack>
           <VStack spacing={4} align="start">
             <Heading as="h2" size="lg">Contact</Heading>
-            <Link href="mailto:info@drakeofficial.com" color="gold"><FaEnvelope /> info@drakeofficial.com</Link>
+            <Link href="mailto:info@drakeofficial.com" color="brand.pink"><FaEnvelope /> info@drakeofficial.com</Link>
             <Flex>
-              <Link href="#" color="gold" p={2}><FaInstagram /></Link>
-              <Link href="#" color="gold" p={2}><FaTwitter /></Link>
+              <Link href="#" color="brand.pink" p={2}><FaInstagram /></Link>
+              <Link href="#" color="brand.pink" p={2}><FaTwitter /></Link>
             </Flex>
           </VStack>
         </SimpleGrid>
